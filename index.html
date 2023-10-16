@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <style>
+            body{
+                color-scheme: dark;
+                background-color: rgb(42, 42, 42);
+                font-family: 'Roboto', sans-serif;
+            }
+            .content{
+                color: rgb(255, 255, 255);
+                font-size: 20;
+                float: left;
+                width: 75%;
+                margin-top: 40px;
+            }
+            .navbar {
+                overflow: hidden;
+                background-color: aliceblue;
+                position: fixed; 
+                top: 0; 
+                width: 100%;
+            }
+            .navbar a {
+                float: left;
+                font-size: 30px;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            .nav {
+                font-size: 20px;
+                padding: 20px;
+                text-align: left;
+
+                transition: all 0.2s ease;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+                -o-transition: all 0.2s ease;
+                -ms-transition: all 0.2s ease;
+
+                width: 300px;
+                display: inline-block;
+                height: 14px;
+            }
+ 
+            .nav:hover {
+                font-size: 30px;
+}
+            .side{
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                float: right;
+                color: rgb(255, 255, 255);
+                width: 25%;
+            }
+            .side img{
+                max-width:100%;
+            }
+            a{
+                color: bisque;
+                text-decoration: none;
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">        
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+        </div>
+        <div class="content" id="top">
+            <div class="trivia">
+                <p><strong>Simulated Universe</strong> is a rogue-like game mode unlocked after completing Simulated Universe: First Closed Beta.<br>
+                    The gameplay revolves around collecting upgrades, known as Blessings to enhance the team's power and completing stages containing progressively more difficult enemies.<br>
+                    It is the source for Herta Bond, which can be used to buy items from Herta's Store.
+                </p>
+            </div>
+            <div class="pagenav">
+                <ul>
+                    <li><a class="nav" href="#overview">Overview</a></li>
+                    <li><a class="nav" href="#swarm">Swarm Disaster</a></li>
+                    <li><a class="nav" href="#points">Point rewards</a></li>
+                </ul>
+            </div>
+            <br>
+            <h1 id="overview">Overview</h1>
+            <hr/>
+            <div class="overview">
+                <p><strong>In Simulated Universe</strong>, there are 7 worlds that have to be beaten in order. Each world has multiple difficulty levels that unlock as the player increases their Trailblaze Level. Each difficulty will grant rewards upon first-time completion, but can be replayed for other rewards such as enemy loot, Relic EXP Material, and opportunities to claim Planar Ornaments using Trailblaze Power or Immersifiers.<br>
+                    At the start of each playthrough, the player may choose a Path to follow, which will grant Path-specific buffs and an increased chance to obtain Blessings of the corresponding Path. During the playthrough, the player will complete different types of Domains (Combat, Occurrence, Transaction, Encounter, Elite, Respite) with the end goal of arriving at the final Boss Domain and defeating the boss. For more information on Domains, see Simulated Universe/Worlds.<br>
+                    Blessings, Curios will be accumulated through various means, which provide a variety of passive effects and buffs to the team. Blessings can be upgraded through Random Events or within Respite Domains to enhance their effects. A currency known as Cosmic Fragments will also be obtained which can be used in certain Random Events or to upgrade Blessings.<br>
+                    Destructible objects can be found in Domains which provide Cosmic Fragments, healing, or Technique Points.<br>
+                    If the entire team is defeated at any point in the playthrough, they will lose their current progress, including Domain progress, Cosmic Fragments, Blessings, and Curios and will have to start over.<br>
+                    When a playthrough ends, either by completing the last domain or by being defeated, the player will obtain weekly points and Ability Tree points. Accumulated weekly points allow the player to claim time-limited rewards that refresh every week, while Ability Tree points allow the player to unlock permanent upgrades in the Ability Tree.</p>
+                    <ul>
+                        <li><a class="nav" href="worlds/world_1.html">World 1</a></li>
+                        <li><a class="nav" href="worlds/world_2.html">World 2</a></li>
+                        <li><a class="nav" href="worlds/world_3.html">World 3</a></li>
+                        <li><a class="nav" href="worlds/world_4.html">World 4</a></li>
+                        <li><a class="nav" href="worlds/world_5.html">World 5</a></li>
+                        <li><a class="nav" href="worlds/world_6.html">World 6</a></li>
+                        <li><a class="nav" href="worlds/world_7.html">World 7</a></li>
+                    </ul>
+            </div>
+            <br>
+            <h1 id="swarm">Swarm Disaster</h1>
+            <hr/>
+            <div class="swarm">
+                <strong>Swarm Disaster</strong> is a special mode of Simulated Universe themed around the Path of Propagation, unlocked after completing World 5 of the regular Simulated Universe.<br>
+                A Swarm Disaster playthrough consists of 3 planes. Each plane is a randomly generated map with different Domains, in which the player can choose their own path to the exit. When choosing a Path at the beginning of a playthrough, aside from the normal bonuses, passive effects related to navigating the map will also be applied.<br>
+                In addition to the regular Domain types, Swarm Disaster also features Combat: Swarm, Occurrence: Swarm, Adventure, and Reward domains. Certain Path-specifc effects can also turn existing Domains into Blank Domains. Additionally, Transaction Domains will feature shops where the player can purchase Curios and Blessings using Cosmic Fragments, instead of Random Events.<br>
+                While most Curios and Random Events can also be found in Swarm Disaster, certain Curios and Random Events are exclusive to Swarm Disaster.<br>
+                As the player completes playthroughs, they may complete objectives in the Trail of Pathstrider, which will increase points in the Communing Trail for specific paths. Once each path has accumulated 1, 3, 5, 11, 13, 16, 20 points, a permanent upgrade will be unlocked. Reaching milestones in the Communing Trail will also reward the player with Swarm Disaster chapters upon completion of a plane. Once all 13 chapters are collected, the Propagation Path will be unlocked for both Swarm Disaster and the regular Simulated Universe.<br>
+            </div>
+            <br>
+            <h1 id="points">Point Rewards</h1>
+            <hr/>
+            <div class="points">
+                <strong>Points</strong> are collected based on a player's progress throughout the worlds in the Simulated Universe. After accumulating a set amount of points, a player will receive a variety of rewards such as Credit, Stellar Jade, Lost Gold Fragments, Herta Bond, Star Rail Pass, and Tracks of Destiny. When a player's Equilibrium Level increases, a player's points tier will also increase. This increases the amount of rewards a player will receive.<br>
+                Rewards are reset once every week on Monday at 4:00 (Server Time).<br>
+            </div>
+            <p><br><br><br></p>
+            <hr/>
+            <a class="nav" href="#top">To top</a>
+            <p><br><br><br></p>
+        </div>
+        <div class="side">
+            <!--picture-->
+            <h2>Simulated Universe</h2>
+            <img src="img/Herta/Location_Hertas_Office.webp" alt="office" class="icon">
+            <hr/>
+            <p><i>Herta's Office</i></p>
+            <hr/>
+            <p>A wondrous machine sits in the space station's owner, Herta's, room. A device designed and built by Herta and her partners. A device capable of creating a virtual world from mere code.</p>
+            <hr>
+        </div>
+    </body>
+</html>
